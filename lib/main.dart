@@ -11,9 +11,9 @@ void main() {
         backgroundColor: Colors.blueGrey,
         body: Center(
           child: Image(
-            image: NetworkImage(
-                'https://vivy-portal.com/assets/img/special/icon/img_04.png'),
-          ),
+//            image: NetworkImage(
+//                'https://vivy-portal.com/assets/img/special/icon/img_04.png'),
+              image: AssetImage('images/diamond.png')),
         ),
       ),
     ),
